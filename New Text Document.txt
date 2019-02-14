@@ -1,0 +1,4 @@
+Delete [dbo].[Project]
+From [dbo].[Project]
+Inner Join [dbo].[C_Sector] On [dbo].[Project].SectorId=[dbo].[C_Sector].SectorId
+Where ProjectDescription = 'v';
